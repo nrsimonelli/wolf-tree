@@ -5,10 +5,10 @@
 - [x] npx create-react-app
 - [x] strip down files
 - [ ] tailwind config
-- [ ] cracao config
-- [ ] post css
+- [x] cracao config
+- [x] post css
 - [x] replace react-scripts
-- [ ] yarn
+- [x] yarn
 
 ## CLI
 
