@@ -3,11 +3,11 @@
 ## Setup
 
 - [x] npx create-react-app
-- [ ] strip down files
+- [x] strip down files
 - [ ] tailwind config
 - [ ] cracao config
 - [ ] post css
-- [ ] replace react-scripts
+- [x] replace react-scripts
 - [ ] yarn
 
 ## CLI
