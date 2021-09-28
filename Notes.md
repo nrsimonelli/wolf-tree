@@ -24,3 +24,4 @@
 - [ ] init config full vs default
 - [ ] theme, colors, typography
 - [ ] units and purge
+- [ ] config viewer
