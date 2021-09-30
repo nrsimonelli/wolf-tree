@@ -1,0 +1,7 @@
+/* Commonly repeated classes layered by base, components, or utilities */
+
+@layer components {
+  .btn {
+    @apply cursor-pointer select-none font-semibold rounded-xl shadow-md py-2 px-4;
+  }
+}
