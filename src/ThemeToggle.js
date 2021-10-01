@@ -21,11 +21,11 @@ const ThemeToggle = ({
   };
 
   const iconSize = {
-    xs: 'h-4 w-4',
-    sm: 'h-5 w-5',
-    md: 'h-6 w-6',
-    lg: 'h-8 w-8',
-    xl: 'h-10 w-10',
+    xs: 'h-16 w-16',
+    sm: 'h-20 w-20',
+    md: 'h-24 w-24',
+    lg: 'h-32 w-32',
+    xl: 'h-40 w-40',
   };
 
   if (!iconSize[size]) {
@@ -44,11 +44,7 @@ const ThemeToggle = ({
 
   return (
     <div
-      className={
-        isButton
-          ? `btn transition-all duration-500 ease-in-out ${toggleStyle}`
-          : ` ${toggleStyle}`
-      }
+      className={isButton ? `btn ${toggleStyle}` : ` ${toggleStyle}`}
       onClick={nextTheme}
     >
       {theme === 'dark' ? toLightMode : toDarkMode}
