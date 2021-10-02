@@ -12,8 +12,8 @@ const App = () => {
         </div>
         <ThemeToggle
           size='md'
-          toDarkMode='Dark Mode'
-          toLightMode='Light Mode'
+          // toDarkMode='Dark Mode'
+          // toLightMode='Light Mode'
           toggleStyle='text-white dark:text-black bg-accent-500 hover:bg-accent-600 dark:hover:bg-accent-400'
         />
       </div>

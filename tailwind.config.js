@@ -13,8 +13,9 @@ module.exports = {
       white: colors.white,
       gray: colors.trueGray,
       primary: colors.blueGray,
-      secondary: colors.amber,
-      accent: colors.red,
+      secondary: colors.indigo,
+      accent: colors.fuchsia,
+      shade: colors.violet,
     },
     spacing: {
       ...px(0),
@@ -81,7 +82,25 @@ module.exports = {
       800: '800',
       900: '900',
     },
-    extend: {},
+    extend: {
+      colors: {
+        primary: {
+          DEFAULT: colors.blueGray[500],
+        },
+        secondary: {
+          DEFAULT: colors.indigo[500],
+        },
+        accent: {
+          DEFAULT: colors.fuchsia[500],
+        },
+        shade: {
+          DEFAULT: colors.violet[500],
+        },
+        gray: {
+          DEFAULT: colors.trueGray[500],
+        },
+      },
+    },
   },
   variants: {
     extend: {},
