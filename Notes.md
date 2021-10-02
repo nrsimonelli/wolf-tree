@@ -4,7 +4,7 @@
 
 - [x] npx create-react-app
 - [x] strip down files
-- [ ] tailwind config
+- [x] tailwind config
 - [x] cracao config
 - [x] post css
 - [x] replace react-scripts
@@ -22,18 +22,18 @@
 
 ## More Tailwind
 
-- [ ] init config full vs default
+- [x] init config full vs default
 - [ ] theme, colors, typography
-- [ ] units and purge
-- [ ] config viewer
+- [x] units and purge
+- [x] config viewer
 
 ## Features
 
-- [ ] dark mode toggle
-  - [ ] theme provider / context
-  - [ ] theme hook
-  - [ ] abstracted toggle component
-  - [ ] failproof props
+- [x] dark mode toggle
+  - [x] theme provider / context
+  - [x] theme hook
+  - [x] abstracted toggle component
+  - [~] failproof props
 - [ ] Nav component
   - [ ] abstracted
   - [ ] active styling
